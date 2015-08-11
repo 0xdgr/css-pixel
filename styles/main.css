@@ -1,0 +1,47 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
+body {
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  text-align: center; }
+
+#clear-button {
+  float: right;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #6E5745;
+  padding: 4px;
+  text-decoration: none; }
+
+section {
+  position: relative;
+  margin: 0 auto;
+  width: 296px; }
+
+#canvas {
+  display: inline-block;
+  width: 288px;
+  height: 288px;
+  padding: 1px;
+  border-width: 3px;
+  border-color: #000;
+  border-style: solid;
+  background-color: white; }
+
+.pixel {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: #2d769b; }
+  .pixel:after {
+    content: ''; }
+  .pixel:hover {
+    background-color: #5eaad0; }
+  .pixel:active {
+    background-color: #b34ab8; }
+  .pixel:visited {
+    background-color: #6D2C70; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,62 @@
+@import "variables";
+
+body {
+	font-family: $font-family;
+}
+
+h1 {
+	text-align: center;
+}
+
+#clear-button {
+	float: right;
+	margin-bottom: 10px;
+	color: white;
+	background-color: #6E5745;
+	padding: 4px;
+	text-decoration: none;
+}
+
+section {
+	position: relative;
+	margin: 0 auto;
+	width: $canvas-width + 8px; // + canvas border
+}
+
+#canvas {
+	display: inline-block;
+	width: $canvas-width;
+	height: $canvas-height;
+	padding: $pixels-margin / 2;
+	border: {
+		width: 3px;
+		color: #000;
+		style: solid;
+	}
+	background-color: white;
+}
+
+.pixel {
+	display: block;
+	float: left;
+	width: $pixel-width;
+	height: $pixel-width;
+	margin: $pixels-margin;
+	background-color: $pixel-color;
+
+	&:after {
+		content: '';
+	}
+
+	&:hover {
+		background-color: $pixel-hover-color;
+	}
+
+	&:active {
+		background-color: $pixel-active-color;
+	}
+
+	&:visited {
+		background-color: $pixel-visited-color;
+	}
+}

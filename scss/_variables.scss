@@ -1,0 +1,16 @@
+$google-fonts: unquote("Lato");
+@import url("http://fonts.googleapis.com/css?family=#{$google-fonts}");
+$font-family: "Lato", sans-serif;
+
+$columns: 12;
+$rows: 12;
+$pixel-width: 20px;
+$pixels-margin: 2px;
+
+$canvas-width: ($columns * $pixel-width) + ($pixels-margin * $columns * 2);
+$canvas-height: ($rows * $pixel-width) + ($pixels-margin * $columns * 2);
+
+$pixel-color: #2d769b;
+$pixel-hover-color: lighten($pixel-color, 20%);
+$pixel-visited-color: #6D2C70;
+$pixel-active-color: lighten($pixel-visited-color, 20%);

@@ -1,6 +1,6 @@
 # CSS Pixel Art Editor
 
-A simple pixel art editor made up with CSS. 
+A simple pixel art editor made with CSS. 
 
 I have added some javascript to clear the links visited.
 
